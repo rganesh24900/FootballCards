@@ -1,0 +1,28 @@
+#nav-bar{
+    display: flex;
+    gap: 280px;
+    padding-left: 60px;
+}
+.nav-content{
+    display: flex;
+}
+#nav-header{
+    display: flex;
+    line-height: 2;
+    margin-top: 50px;
+    padding: 15px 0 15px 0;
+}
+/* a{
+    transition: all 0.3s ease-out;
+} */
+a:hover{
+    border-bottom: 2px solid rgb(129, 65, 65);
+    transition: all 0.1s ease-out;
+}
+.no-text-dec{
+    text-decoration: none;
+}
+
+.d-green{
+    color: #023020;
+}
